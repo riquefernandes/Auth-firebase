@@ -1,13 +1,14 @@
 import logo from '/src/assets/logo.svg'
 import arrowImg from "../../assets/arrow.svg";
 import './style.css'
+import { Link } from 'react-router-dom';
 
-function Login() {
+export function Login() {
   return (
     <div className="container">
       <header className="header">
         <img src={logo} alt="Logo" className="logoImg" />
-        <spam>Por favor digite seu LDAP Siemens</spam>
+        <span>Por favor digite seu LDAP Siemens</span>
       </header>
       <form>
         <div className="inputContainer">
@@ -38,7 +39,7 @@ function Login() {
         </button>
         <div className="footer">
           <p>Você não tem uma conta?</p>
-          <a to="/register">Crie a sua conta aqui</a>
+          <Link to="/Register">Crie a sua conta aqui</Link>
         </div>
 
       </form>
@@ -48,4 +49,4 @@ function Login() {
   );
 }
 
-export default Login
+

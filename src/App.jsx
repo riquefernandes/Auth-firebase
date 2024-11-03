@@ -1,11 +1,10 @@
 import './index.css';
 
-import Login from './pages/login/Login'; 
+import { AppRouters } from '../src/routers/AppRouters'
 
-function App() {
+ export function App() {
   return (
-    <Login />
+    <AppRouters />
   );
 }
 
-export default App;
