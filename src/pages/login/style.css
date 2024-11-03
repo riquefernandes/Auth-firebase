@@ -46,9 +46,10 @@
     padding: 16px;
     width: 520px;
     height: 49px;
-    border: 1px solid #5C73DB;
+    border: 1px solid #00a0b0;
     border-radius: 12px;
     margin-bottom: 12px;
+    background: #242424;
   
   }
   
@@ -64,7 +65,7 @@
   .container form .button {
     width: 520px;
     height: 48px;
-    background: #4763E4;
+    background: #00a0b0;
     border-radius: 12px;
     color: #fff;
     border: none;
@@ -95,7 +96,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: #000000;
+    color: #242424;
   }
   
   .container form .footer a {
@@ -108,7 +109,7 @@
   
 .logoImg{
 
-    width: 120px;
-    height: 120px;
+    width: 240px;
+    height: 240px;
 
 }  
