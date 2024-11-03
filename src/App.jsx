@@ -1,20 +1,11 @@
-import './index.css'
-import './App.css'
-import {Login} from './pages/login/Login'
+import './index.css';
 
+import Login from './pages/login/Login'; 
 
-
-function App(){
-
-
-return (
-
-  <Login/>
-
-
-)
-
-
+function App() {
+  return (
+    <Login />
+  );
 }
 
-export default App
+export default App;
