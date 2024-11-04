@@ -32,6 +32,11 @@ export function Login() {
           //onChange={(e) => setPassword(e.target.value)}
           />
         </div>
+        <div className='conected' >
+          <span className='texts' >Lembrar a senha?</span>
+        <input type='checkbox' >
+        </input>
+        </div>
 
         <a href="#">Esqueceu sua senha ?</a>
         <button className="button" >
